@@ -8,6 +8,7 @@ from drf_spectacular.views import (
 
 urlpatterns = [
     path("auth/", include("dj_rest_auth.urls")),
+    path("blogs/", include("api.blogs.urls")),
 ]
 
 # Enable swagger doc
