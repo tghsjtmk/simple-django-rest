@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # apps
     "member",
+    "blog",
     # 3rd party / library
 ]
 
