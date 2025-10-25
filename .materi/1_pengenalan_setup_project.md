@@ -13,7 +13,8 @@ Django adalah framework web berbasis Python yang:
 ### 📦 1. Buat Folder & Virtual Environment
 
 ```bash
-mkdir simple-blog && cd simple-blog
+mkdir simple-blog
+cd simple-blog
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
@@ -32,10 +33,10 @@ touch requirements.txt
 Tambahkan versi ke `requirements.txt`:
 
 ```txt
-Django==5.2.6
+Django==5.2.7
 black==25.9.0
 django-environ==0.12.0
-psycopg2-binary==2.9.10
+psycopg2-binary==2.9.11
 ```
 
 ---
